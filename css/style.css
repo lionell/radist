@@ -1,0 +1,116 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p, h1 {
+    margin: 0;
+}
+
+/* Style */
+
+body {
+    margin: 0;
+    font-family: 'Neucha', cursive;
+    background-image: url("../img/border.jpg"), url("../img/footer.jpg"), url("../img/roughcloth.png");
+    background-repeat: repeat-y, repeat-x, repeat;
+    background-position: right 60px top, bottom 40px left, center;
+    background-size: 70px, 80px, auto;
+}
+
+header {
+    margin-right: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    border-radius: 10px;
+}
+
+[id*='motto-'] {
+    float: left;
+}
+
+#motto-1 {
+    margin-left: 50px;
+    margin-top: 70px;
+    font-size: 40pt;
+    /* Safari */
+    -webkit-transform: rotate(-10deg);
+}
+
+#motto-2 {
+    margin-left: 10px;
+    margin-top: 80px;
+    font-size: 35pt;
+    /* Safari */
+    -webkit-transform: rotate(5deg);
+}
+
+#motto-3 {
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 30pt;
+    /* Safari */
+    -webkit-transform: rotate(-5deg);
+}
+
+#motto-4 {
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 55pt;
+    /* Safari */
+    -webkit-transform: rotate(5deg);
+}
+
+aside {
+    float: left;
+    width: 250px;
+    height: 450px;
+}
+
+#nav {
+    list-style: none;
+    margin: 10px 10px;
+    padding: 0;
+}
+
+#nav > li {
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+#nav a {
+    text-decoration: underline;
+    font-size: 16pt;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#nav a:hover {
+    color: #FF0000;
+}
+
+main {
+    margin: 0 200px 0 250px;
+    height: 700px;
+    max-width: 800px;
+    text-align: justify;
+    font-size: 16pt;
+}
+
+footer {
+    clear: both;
+    height: 30px;
+}
+
+#copyright {
+    font-size: 10pt;
+    text-align: center;
+}
